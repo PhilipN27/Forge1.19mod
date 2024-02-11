@@ -18,6 +18,7 @@ public class ModPn
     public static final String MOD_ID = "modpn";
     private static final Logger LOGGER = LogUtils.getLogger();
 
+    //Test comment for github commit
     public ModPn()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
