@@ -13,9 +13,9 @@ public class ModItems
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ModPn.MOD_ID);
 
     public static final RegistryObject<Item> IGNITIUM = ITEMS.register("ignitium",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MOD_TAB)));
     public static final RegistryObject<Item> RAW_IGNITIUM = ITEMS.register("raw_ignitium",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MOD_TAB)));
     public static void register (IEventBus eventBus)
     {
         ITEMS.register(eventBus);
