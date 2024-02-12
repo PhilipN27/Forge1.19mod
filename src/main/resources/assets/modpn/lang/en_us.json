@@ -1,4 +1,6 @@
 {
   "item.modpn.ignitium": "Ignitium",
-  "item.modpn.raw_ignitium": "Raw Ignitium"
+  "item.modpn.raw_ignitium": "Raw Ignitium",
+
+  "ItemGroup.modtab": "Ignitium Mod Tab"
 }
