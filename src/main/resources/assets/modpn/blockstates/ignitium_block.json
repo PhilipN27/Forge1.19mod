@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "":
+    {
+      "model": "mod119:block/ignitium_block"
+    }
+  }
+}
