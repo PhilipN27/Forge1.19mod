@@ -27,7 +27,7 @@ public class ModBlocks
 
     public static final RegistryObject<Block> IGNITIUM_ORE = registerBlock("ignitium_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTab.MOD_TAB);
 
-    public static final RegistryObject<Block> DEEPSLATE_IGNITIUM_ORE = registerBlock("deepslate_ignitium_block", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTab.MOD_TAB);
+    public static final RegistryObject<Block> DEEPSLATE_IGNITIUM_ORE = registerBlock("deepslate_ignitium_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTab.MOD_TAB);
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab)
     {

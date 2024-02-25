@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "":
+    {
+      "model": "modpn:block/deepslate_ignitium_ore"
+    }
+  }
+}
