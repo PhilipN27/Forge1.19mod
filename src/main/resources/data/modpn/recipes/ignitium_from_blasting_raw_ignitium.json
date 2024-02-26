@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "ignitium",
+  "ingredient":
+  {
+    "item": "modpn:raw_ignitium"
+  },
+  "result": "modpn:ignitium"
+}

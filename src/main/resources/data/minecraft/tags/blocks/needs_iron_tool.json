@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values":
+          [
+              "modpn:ignitium_ore",
+              "modpn:ignitium_block",
+              "modpn:deepslate_ignitium_ore"
+          ]
+}

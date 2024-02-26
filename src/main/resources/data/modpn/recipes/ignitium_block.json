@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key":
+  {
+    "#": {
+      "item": "modpn:ignitium"
+    }
+  },
+  "result":
+  {
+    "item": "modpn:ignitium_block"
+  }
+}

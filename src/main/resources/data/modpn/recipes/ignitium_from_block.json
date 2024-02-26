@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+    "item": "modpn:ignitium_block"
+    }
+  ],
+  "result":
+  {
+    "item": "modpn:ignitium",
+    "count": 9
+  }
+}
