@@ -14,6 +14,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.philip.mod119.ModPn;
+import net.philip.mod119.block.custom.JumpBlock;
 import net.philip.mod119.item.ModCreativeModeTab;
 import net.philip.mod119.item.ModItems;
 
@@ -27,8 +28,9 @@ public class ModBlocks
 
     public static final RegistryObject<Block> IGNITIUM_ORE = registerBlock("ignitium_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTab.MOD_TAB);
 
-    public static final RegistryObject<Block> DEEPSLATE_IGNITIUM_ORE = registerBlock("deepslate_ignitium_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTab.MOD_TAB);
+    public static final RegistryObject<Block> DEEPSLATE_IGNITIUM_ORE = registerBlock("deepslate_ignitium_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOD_TAB);
 
+    public static final RegistryObject<Block> JUMP_BLOCK = registerBlock("jump_block", () -> new JumpBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOD_TAB);
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab)
     {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

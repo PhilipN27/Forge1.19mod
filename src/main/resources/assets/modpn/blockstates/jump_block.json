@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "" :
+    {
+      "model": "modpn:block/jump_block"
+    }
+  }
+}

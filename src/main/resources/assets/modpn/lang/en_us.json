@@ -5,6 +5,7 @@
   "block.modpn.ignitium_block": "Block of ignitium",
   "block.modpn.ignitium_ore": "Ignitium ore",
   "block.modpn.deepslate_ignitium_ore": "Deepslate ignitium ore",
+  "block.modpn.jump_block": "Jump Block",
 
   "ItemGroup.modtab": "Ignitium Mod Tab"
 }
