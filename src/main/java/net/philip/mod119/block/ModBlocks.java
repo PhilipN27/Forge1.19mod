@@ -6,6 +6,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -16,6 +17,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.philip.mod119.ModPn;
 import net.philip.mod119.block.custom.IgnitiumLampBlock;
 import net.philip.mod119.block.custom.JumpBlock;
+import net.philip.mod119.block.custom.StrawberryCropBlock;
 import net.philip.mod119.item.ModCreativeModeTab;
 import net.philip.mod119.item.ModItems;
 
@@ -34,6 +36,9 @@ public class ModBlocks
     public static final RegistryObject<Block> JUMP_BLOCK = registerBlock("jump_block", () -> new JumpBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOD_TAB);
 
     public static final RegistryObject<Block> IGNITIUM_LAMPBLOCK = registerBlock("ignitium_lampblock", () -> new IgnitiumLampBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops().lightLevel(state -> state.getValue(IgnitiumLampBlock.LIT) ? 15 : 0)), ModCreativeModeTab.MOD_TAB);
+
+    public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop", () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab)
     {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
