@@ -1,0 +1,7 @@
+{
+  "variants":
+  {
+    "lit=true": { "model": "modpn:block/ignitium_lampblock_on"},
+    "lit=false": { "model": "modpn:block/ignitium_lampblock_off"}
+  }
+  }
