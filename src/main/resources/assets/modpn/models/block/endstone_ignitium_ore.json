@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "modpn:block/endstone_ignitium_ore"
+  }
+}

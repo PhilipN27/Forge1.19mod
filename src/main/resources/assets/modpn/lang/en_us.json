@@ -10,6 +10,8 @@
   "block.modpn.jump_block": "Jump Block",
   "block.modpn.ignitium_lampblock": "Ignitium Lamp Block",
   "block.modpn.strawberry_crop": "Strawberry Crop",
+  "block.modpn.endstone_ignitium_ore": "Endstone Ignitium Ore",
+  "block.modpn.netherrack_ignitium_ore": "Netherrack Ignitium Ore",
 
   "ItemGroup.modtab": "Ignitium Mod Tab"
 }

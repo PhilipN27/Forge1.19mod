@@ -13,6 +13,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.philip.mod119.block.ModBlocks;
 import net.philip.mod119.item.ModItems;
 import net.philip.mod119.painting.Painting;
+import net.philip.mod119.world.feature.ModConfiguredFeatures;
+import net.philip.mod119.world.feature.ModPlacedFeatures;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -32,6 +34,10 @@ public class ModPn
         ModBlocks.register(modEventBus);
 
         Painting.register(modEventBus);
+
+        ModConfiguredFeatures.register(modEventBus);
+
+        ModPlacedFeatures.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

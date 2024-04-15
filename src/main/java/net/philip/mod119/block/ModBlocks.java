@@ -31,7 +31,11 @@ public class ModBlocks
 
     public static final RegistryObject<Block> IGNITIUM_ORE = registerBlock("ignitium_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTab.MOD_TAB);
 
-    public static final RegistryObject<Block> DEEPSLATE_IGNITIUM_ORE = registerBlock("deepslate_ignitium_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOD_TAB);
+    public static final RegistryObject<Block> DEEPSLATE_IGNITIUM_ORE = registerBlock("deepslate_ignitium_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTab.MOD_TAB);
+
+    public static final RegistryObject<Block> ENDSTONE_IGNITIUM_ORE = registerBlock("endstone_ignitium_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(),UniformInt.of(3, 7)), ModCreativeModeTab.MOD_TAB);
+
+    public static final RegistryObject<Block> NETHERRACK_IGNITIUM_ORE = registerBlock("netherrack_ignitium_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(),UniformInt.of(3, 7)), ModCreativeModeTab.MOD_TAB);
 
     public static final RegistryObject<Block> JUMP_BLOCK = registerBlock("jump_block", () -> new JumpBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOD_TAB);
 
