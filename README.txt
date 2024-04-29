@@ -1,3 +1,25 @@
+What is this?
+-------------------------------------------
+This github houses my 1.19 Minecraft Mod. Since I was a kid I've always wanted to add my own ideas into minecraft. Minecraft is my favorite game of all time, and being able to add my own changes has been a lot of fun. 
+
+What does it add?
+-------------------------------------------
+This mod adds a wide variety of things ranging from game features to ore generation.
+
+Here is a list of the added mods:
+====================================
+-Strawberries/strawberry crop
+-New light block
+-New jump block(ignitium block)
+-New raw material called Ignitium which includes: raw ignitium, ignitium ingot, ignitium ore(deepslate,endstone, netherrack)
+-2 new paintings
+-New Creative tab(page 2)
+
+COMING SOON:
+==============
+-New weapon
+-Easier mode switching
+-Different HUD
 
 Source installation information for modders
 -------------------------------------------
@@ -11,6 +33,16 @@ normal code.
 
 Setup Process:
 ==============================
+BEFORE STARTING!!! GO TO THE BOTTOM OF THIS READ ME AND USE THE 'SETUP' LINK ATTACHED
+FOLLOW THESE STEPS FROM THE VIDEO IN ORDER:
+'DOWNLOADING AND INSTALLING THE JDK'
+'DOWNLOADING AND INSTALLING INTELLIJ IDEA'
+'DOWNLOADING THE FORGE MDK'
+'OPENING INTELLIJ FOR THE FIRST TIME'
+'CHANGES IN THE BUILD.GRADLE FILE'
+AFTER DOING THESE YOU SHOULD BE GOOD BUT I HIGHLY RECOMMEND FOLLOWING THE VIDEO CLOSELY THROUGHOUT.
+
+I HIGHLY RECOMMEND USING INTELLIJ IDEA OVER OTHER OPTIONS SUCH AS VSCODE OR ECLIPSE.
 
 Step 1: Open your command-line and browse to the folder where you extracted the zip file.
 
@@ -44,3 +76,4 @@ Community Documentation: https://mcforge.readthedocs.io/en/latest/gettingstarted
 LexManos' Install Video: https://www.youtube.com/watch?v=8VEdtQLuLO0  
 Forge Forum: https://forums.minecraftforge.net/  
 Forge Discord: https://discord.gg/UvedJ9m  
+Setup Tutorial:https://www.youtube.com/watch?v=LpoSy091wYI
