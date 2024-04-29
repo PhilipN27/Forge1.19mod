@@ -13,5 +13,10 @@
   "block.modpn.endstone_ignitium_ore": "Endstone Ignitium Ore",
   "block.modpn.netherrack_ignitium_ore": "Netherrack Ignitium Ore",
 
-  "ItemGroup.modtab": "Ignitium Mod Tab"
+  "ItemGroup.modtab": "Ignitium Mod Tab",
+  "key.category.modpn.mod" : "Mod PN",
+  "key.modpn.drink_water": "Drink Water",
+
+  "message.modpn.drink_water": "Drinking water",
+  "message.modpn.no_water": "No water nearby!"
 }

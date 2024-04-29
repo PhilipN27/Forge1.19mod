@@ -12,6 +12,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.philip.mod119.block.ModBlocks;
 import net.philip.mod119.item.ModItems;
+import net.philip.mod119.network.ModMessages;
 import net.philip.mod119.painting.Painting;
 import net.philip.mod119.world.feature.ModConfiguredFeatures;
 import net.philip.mod119.world.feature.ModPlacedFeatures;
@@ -46,7 +47,7 @@ public class ModPn
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-
+        ModMessages.register();
     }
 
 
